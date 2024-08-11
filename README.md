@@ -37,9 +37,3 @@ Un simple sistema de carrito de compras codificado en Perl. Este proyecto propor
    perl -MTest::Harness -e 'runtests @ARGV' t/*.t
 
 
-
-*chao*
-
-
-   
-   
