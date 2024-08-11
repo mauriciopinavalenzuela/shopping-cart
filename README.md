@@ -1,6 +1,6 @@
-# Strawberry Perl Shopping Cart
+# **Strawberry Perl Shopping Cart*
 
-Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporciona una interfaz de línea de comandos para agregar, ver y eliminar productos de un carrito de compras.
+Un simple sistema de carrito de compras codificado en Perl. Este proyecto proporciona una interfaz de línea de comandos para agregar, ver y eliminar productos de un carrito de compras.
 
 ## Estructura del Proyecto
 
@@ -12,23 +12,19 @@ Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporcio
 
 ## Instalación
 
-1. **Clona el Repositorio*
-
-   Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu máquina local:
 
    ```sh
    git clone https://github.com/mauriciopinavalenzuela/strawberry-perl.git
 
-2. **Navega al Directorio del Proyecto**
+2. Navega al directorio del proyecto:
 
    ```sh
    cd mi_proyecto_perl
 
 ## Uso 
 
-1. **Ejecuta el Script Principal**
-   
-   Ejecuta el script compras.pl para interactuar con el carrito de compras:
+1. Ejecuta el script compras.pl para interactuar con el carrito de compras:
 
    ```sh
    perl bin/compras.pl
@@ -39,6 +35,10 @@ Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporcio
    
    ```sh
    perl -MTest::Harness -e 'runtests @ARGV' t/*.t
+
+
+
+**chao*
 
 
    
