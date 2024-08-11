@@ -1,4 +1,4 @@
-# *Shopping Cart*
+# Shopping Cart
 
 Un simple sistema de carrito de compras codificado en Perl. Este proyecto proporciona una interfaz de línea de comandos para agregar, ver y eliminar productos de un carrito de compras.
 
