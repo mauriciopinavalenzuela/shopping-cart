@@ -1,4 +1,4 @@
-# **Strawberry Perl Shopping Cart*
+# *Strawberry Perl Shopping Cart*
 
 Un simple sistema de carrito de compras codificado en Perl. Este proyecto proporciona una interfaz de línea de comandos para agregar, ver y eliminar productos de un carrito de compras.
 
@@ -38,7 +38,7 @@ Un simple sistema de carrito de compras codificado en Perl. Este proyecto propor
 
 
 
-**chao*
+*chao*
 
 
    
