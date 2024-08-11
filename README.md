@@ -4,18 +4,6 @@ Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporcio
 
 ## Estructura del Proyecto
 
-mi_proyecto_perl/
-├── bin/
-│ └── compras.pl
-├── lib/
-│ ├── Mi/
-│ │ └── Carrito.pm
-│ └── Mi/
-│ └── Utilidades.pm
-└── t/
-├── Carrito.t
-└── Utilidades.t
-
 - **`bin/compras.pl`**: Script principal para gestionar el carrito de compras.
 - **`lib/Mi/Carrito.pm`**: Módulo Perl que maneja la lógica del carrito de compras.
 - **`lib/Mi/Utilidades.pm`**: Módulo Perl con funciones utilitarias.
@@ -30,3 +18,24 @@ mi_proyecto_perl/
 
    ```sh
    git clone https://github.com/mauriciopinavalenzuela/strawberry-perl.git
+
+2. **Navega al Directorio del Proyecto**
+
+   ```sh
+   cd mi_proyecto_perl
+
+## Uso 
+
+1. **Ejecuta el Script Principal**
+
+   ```sh
+   perl bin/compras.pl
+
+## Pruebas 
+
+   ```sh
+   perl -MTest::Harness -e 'runtests @ARGV' t/*.t
+
+
+   
+   
