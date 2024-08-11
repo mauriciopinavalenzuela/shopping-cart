@@ -12,7 +12,7 @@ Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporcio
 
 ## Instalación
 
-1. **Clona el Repositorio**
+1. **Clona el Repositorio*
 
    Clona este repositorio en tu máquina local:
 
