@@ -27,12 +27,16 @@ Un simple sistema de carrito de compras escrito en Perl. Este proyecto proporcio
 ## Uso 
 
 1. **Ejecuta el Script Principal**
+   
+   Ejecuta el script compras.pl para interactuar con el carrito de compras:
 
    ```sh
    perl bin/compras.pl
 
 ## Pruebas 
 
+1. Las pruebas están ubicadas en el directorio t/. Para ejecutarlas, usa el siguiente comando:
+   
    ```sh
    perl -MTest::Harness -e 'runtests @ARGV' t/*.t
 
