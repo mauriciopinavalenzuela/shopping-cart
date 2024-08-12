@@ -1,37 +1,37 @@
 # Shopping Cart
 
-Un simple sistema de carrito de compras codificado en Perl. Este proyecto proporciona una interfaz de línea de comandos para agregar, ver y eliminar productos de un carrito de compras.
+A simple shopping cart system coded in Perl. This project provides a command-line interface to add, view, and remove products from a shopping cart.
 
-## Estructura del Proyecto
+## Project Structure
 
-- **`bin/compras.pl`**: Script principal para gestionar el carrito de compras.
-- **`lib/Mi/Carrito.pm`**: Módulo Perl que maneja la lógica del carrito de compras.
-- **`lib/Mi/Utilidades.pm`**: Módulo Perl con funciones utilitarias.
-- **`t/Carrito.t`**: Pruebas para el módulo `Carrito.pm`.
-- **`t/Utilidades.t`**: Pruebas para el módulo `Utilidades.pm`.
+- **`bin/compras.pl`**: Main script for managing the shopping cart.
+- **`lib/Mi/Carrito.pm`**: Perl module that handles the logic of the shopping cart.
+- **`lib/Mi/Utilidades.pm`**: Perl module with utility functions.
+- **`t/Carrito.t`**: Tests for the `Carrito.pm` module.
+- **`t/Utilidades.t`**: Tests for the `Utilidades.pm` module.
 
-## Instalación
+## Installation
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
 
    ```sh
    git clone https://github.com/mauriciopinavalenzuela/strawberry-perl.git
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
    ```sh
    cd mi_proyecto_perl
 
-## Uso 
+## Usage
 
-1. Ejecuta el script compras.pl para interactuar con el carrito de compras:
+1. Run the compras.pl script to interact with the shopping cart:
 
    ```sh
    perl bin/compras.pl
 
-## Pruebas 
+## Testing
 
-1. Las pruebas están ubicadas en el directorio t/. Para ejecutarlas, usa el siguiente comando:
+1. The tests are located in the t/ directory. To run them, use the following command:
    
    ```sh
    perl -MTest::Harness -e 'runtests @ARGV' t/*.t
