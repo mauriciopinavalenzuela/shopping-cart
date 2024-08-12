@@ -15,12 +15,12 @@ A simple shopping cart system coded in Perl. This project provides a command-lin
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/mauriciopinavalenzuela/strawberry-perl.git
+   git clone https://github.com/mauriciopinavalenzuela/shopping-cart.git
 
 2. Navigate to the project directory:
 
    ```sh
-   cd mi_proyecto_perl
+   cd shopping-cart
 
 ## Usage
 
