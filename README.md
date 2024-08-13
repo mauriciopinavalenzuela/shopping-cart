@@ -4,11 +4,11 @@ A simple shopping cart system coded in Perl. This project provides a command-lin
 
 ## Project Structure
 
-- **`bin/compras.pl`**: Main script for managing the shopping cart.
-- **`lib/Mi/Carrito.pm`**: Perl module that handles the logic of the shopping cart.
-- **`lib/Mi/Utilidades.pm`**: Perl module with utility functions.
-- **`t/Carrito.t`**: Tests for the `Carrito.pm` module.
-- **`t/Utilidades.t`**: Tests for the `Utilidades.pm` module.
+- **`bin/shopping.pl`**: Main script for managing the shopping cart.
+- **`lib/Mi/shoppingcart.pm`**: Perl module that handles the logic of the shopping cart.
+- **`lib/Mi/utilities.pm`**: Perl module with utility functions.
+- **`t/cart.t`**: Tests for the `cart.pm` module.
+- **`t/utilities.t`**: Tests for the `utilities.pm` module.
 
 ## Installation
 
@@ -24,10 +24,10 @@ A simple shopping cart system coded in Perl. This project provides a command-lin
 
 ## Usage
 
-1. Run the compras.pl script to interact with the shopping cart:
+1. Run the shopping.pl script to interact with the shopping cart:
 
    ```sh
-   perl bin/compras.pl
+   perl bin/shopping.pl
 
 ## Testing
 
